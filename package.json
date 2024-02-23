@@ -1,0 +1,29 @@
+{
+  "name": "dep-cruiser-orphan",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "build2": "tsc --build --verbose",
+    "depcruise": "depcruise src packages/utils/src"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanWachter1507/dep-cruiser-orphan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanWachter1507/dep-cruiser-orphan/issues"
+  },
+  "homepage": "https://github.com/StefanWachter1507/dep-cruiser-orphan#readme",
+  "devDependencies": {
+    "dependency-cruiser": "^16.2.1",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,7 @@
+# IDE/Editor settings
+.idea/
+.vscode/
+
+# Node.js / npm
+node_modules/
+out/

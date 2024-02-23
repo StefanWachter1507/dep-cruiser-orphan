@@ -1,0 +1,24 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanWachter1507/dep-cruiser-orphan.git"
+  },
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "import": "./out/*.mjs",
+      "types": "./out/*.d.mts"
+    }
+  },
+  "files": [
+    "out/*"
+  ]
+}
